@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Temporary / test files
+scratch/
+test_*.py
+verify_*.py
+New Text Document.txt
+
+# Raw / intermediate datasets - NOT needed for deployment
+dataset/ai_specialization_dataset.xlsx
+dataset/cleaned_combined_dataset.csv
+dataset/cleaned_udemy_dataset.csv
+dataset/combined_dataset.json
+dataset/course_overview_dataset.csv
+dataset/edx_courses.json
+dataset/edx_degree_programs.json
+dataset/edx_executive_education_paidstuff.json
+dataset/edx_programs.json
+dataset/final_course_dataset.csv
+dataset/learning_path_dataset.csv
+dataset/processed_coursera_data.json
+dataset/skills_master_dataset.xlsx
+dataset/standardized_combined.csv
+dataset/standardized_udemy.csv
+dataset/udemy_courses.csv
+
+# Keep these deployment files:
+# dataset/engineered_course_dataset.csv
+# dataset/job_postings_dataset.csv
+
+# Generated images / analysis artifacts
+course_duration.png
+course_level_distribution.png
+missing_values.png
+provider_distribution.png
+rating_distribution.png
+top_skills.png
+
+*.log
